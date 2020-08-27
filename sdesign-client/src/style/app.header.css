@@ -22,7 +22,13 @@
     font-size: 16px;
     font-weight: bold;
     margin-left: 50px;
+    list-style: none;
   }
+
+  /* display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 490px; */
   
   .App-logo {
     width: 110px;
@@ -65,13 +71,6 @@
     cursor: pointer;
     color: #313131;
   }
-  
-
-  .Tab-app-menu {
-    all: unset;
-    display: none;
-    cursor: pointer;
-  }
 
   /* media Quary */
    
@@ -100,7 +99,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 30px 0 30px;
-    position: relative;
+    /* position: relative; */
   }
   .search-input {display: none;}
   .Tab-icon-BeSearch, .Tab-app-menu {
@@ -109,6 +108,8 @@
     margin: 5px;
   }
   .App-menu {display: none;}
+  #menuToggle {display: block !important;}
+  #searchToggle {display: block !important;}
 }
 @media (max-width: 750px){
 }

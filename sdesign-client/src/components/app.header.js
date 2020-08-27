@@ -47,7 +47,9 @@ function Header() {
             <BsSearch className="Tab-icon-BeSearch" />
             
             <div id="search">
-              <img src="https://i.ibb.co/5LmPhyS/serch-Icon.png" alt="serch-Icon" />
+              <span>
+                <img src="https://i.ibb.co/5LmPhyS/serch-Icon.png" alt="serch-Icon" />
+              </span>
               <input type="text" placeholder="Search for sound effects" />
             </div>
           </div>

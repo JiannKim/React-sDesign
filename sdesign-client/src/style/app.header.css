@@ -24,11 +24,6 @@
     margin-left: 50px;
     list-style: none;
   }
-
-  /* display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  width: 490px; */
   
   .App-logo {
     width: 110px;
@@ -45,6 +40,7 @@
     background-color: #f3f3f3;
     position: relative;
     display: flex;
+    transition: width 0.5s cubic-bezier(0.4,0.2,0.05,2.0);
   }
   .search-icon {
     position: absolute;
@@ -78,6 +74,8 @@
   .App-header {width: 100%;}
   .search-input {
     width: 40%;
+   transition: width 0.5s cubic-bezier(0.4,0.2,0.05,2.0);
+
   }
 }
 @media (max-width: 1500px){
@@ -87,19 +85,19 @@
 }
 @media (max-width: 1250px){
   .App-logo {margin-left: 30px;}
-  .search-input {width: 33%;}
-  .App-menu {margin-right: 30px;}
+  .search-input {width: 38%;}
+  .App-menu {margin-right: 30px; padding: 0;}
 }
 /* 태블릿 */
-@media (max-width: 1050px) {
-  .App-header {width: 100%; display: flex; justify-content: center;}
+@media (max-width: 1020px) {
+  /* .App-header {width: 100%; display: flex; justify-content: center;} */
   .Tab-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px 0 30px;
-    /* position: relative; */
+   margin: 0 30px 0 30px;
+   transition: margin 0.5s cubic-bezier(0.4,0.2,0.05,2.0);
   }
   .search-input {display: none;}
   .Tab-icon-BeSearch, .Tab-app-menu {

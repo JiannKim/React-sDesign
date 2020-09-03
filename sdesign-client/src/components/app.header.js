@@ -45,7 +45,6 @@ function Header() {
               <input type="text" placeholder="Search for sound effects" />
             </div>
           </div>
-          {/* <button href="/" className="Tab-icon-BeSearch"><BsSearch /></button> */}
         </div>
         <div className="search-input">
           <img className="search-icon" src="https://i.ibb.co/5LmPhyS/serch-Icon.png" alt="serch-Icon" />

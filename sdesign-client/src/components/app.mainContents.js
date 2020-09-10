@@ -45,13 +45,13 @@ function MainContents() {
                     </div>
                     <div className="categories-container-wide">
                         <a href="#">
-                            <img src="https://i.ibb.co/PYL4V74/menu.png" alt="walla sound effects" />
+                            <img src="https://i.ibb.co/fn51Pbw/menu.png" alt="walla sound effects" />
                             <h3><span>menus & interfaces</span></h3>
                         </a>
                     </div>
                     <div className="categories-container-wide">
                         <a href="#">
-                            <img src="https://i.ibb.co/mJKwXMw/ambience.png" alt="walla sound effects" />
+                            <img src="https://i.ibb.co/bbLxzNq/ambience.png" alt="walla sound effects" />
                             <h3><span>ambience</span></h3>
                         </a>
                     </div>

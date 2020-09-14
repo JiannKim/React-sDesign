@@ -4,7 +4,8 @@ import '../style/app.mainHeader.css';
 function MainHeader() {
     return(
         <div className="Home-header" >
-                <div className="Home-mainImg"></div>
+                <div className="Home-mainImg">
+                </div>
                 <div className="Home-mainContents"></div>
                 <div className="mainText">
                     <h1>완벽한 사운드를 찾아보세요.</h1>

@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: space-between;
     font-size: 2rem;
+    position: fixed;
+    z-index: 2;
   }
 
   .App-menu {

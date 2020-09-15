@@ -128,19 +128,18 @@
   .browse-tabs {
     display: flex;
     margin: 10px;
-    width: 180px;
+    width: 200px;
     justify-content: space-between;
     font-weight: bold;
     font-size: 16px;
   }
-  .tab-title-1 {
+  .tab-title {
+    all: unset;
     padding: 7px 17px;
     border-bottom: 2px solid #1a1a1a;
-  }
-  .tab-title {
-    padding: 7px 10px;
     color: #aaaaaa;
   }
+
   .tags h3 {
     color: #202020;
     /* position: absolute;

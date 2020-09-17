@@ -136,8 +136,15 @@
   .tab-title {
     all: unset;
     padding: 7px 17px;
-    border-bottom: 2px solid #1a1a1a;
     color: #aaaaaa;
+    cursor: pointer;
+  }
+  .tab-titled {
+    all: unset;
+    padding: 7px 17px;
+    font-weight: bold;
+    color: #202020;
+    border-bottom: 2px solid #1a1a1a;
   }
 
   .tags h3 {

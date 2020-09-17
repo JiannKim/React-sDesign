@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../style/app.mainContents.css';
 import { content, useTabs } from '../controller/tabs';
 
@@ -67,13 +67,11 @@ function MainContents() {
                 <div className="browse-tabs">
 
                 {content.map((obj, index) => (
-                    <button className="tab-title" onClick={() => contentChange(index)}>{obj.tab}</button>
+                    <button className={index === 0 ? "tab-titled" : "tab-title"} onClick={() => contentChange(index)}>{obj.tab}</button>
                 ))}
-                    {/* <div className="tab-title">최신</div>
-                    <div className="tab-title">장소</div>
-                    <div className="tab-title">태그</div> */}
                 </div>
                 {contentItem.content}
+                
                 {/* 최근 탭 */}
                 {/* <div className="home-categories latest">
                     <div className="browse-container">

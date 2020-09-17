@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "./styles.css";
 
 export const content = [
   {
@@ -118,17 +117,7 @@ export const useTabs = (initialTabs, allTabs) => {
   };
 };
 
-// export const {contentItem, contentChange} = useTabs(0, content);
-
-// export default function AppTab() {
-//   return (
-//     <div className="App">
-//       {content.map((section, index) => (
-//         <button onClick={() => contentChange(index)}>{section.tab}</button>
-//       ))}
-//       <br />
-//       <br />
-//       {contentItem.content}
-//     </div>
-//   );
-// }
+export const useTabColorChange = (index) => {
+    const [tabColor] = useState(index);
+    return { tabColor : 0 };
+};
